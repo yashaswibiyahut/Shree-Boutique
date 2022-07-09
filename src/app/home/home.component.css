@@ -1,0 +1,29 @@
+ .picsum-img-wrapper
+{
+	height:600px;
+	width:100%;
+ 	background-repeat: no-repeat; 
+    background-size: cover;
+    background-position: center; 
+} 
+.slider{
+	margin-top:-5%;
+	
+}
+
+
+ @media only screen and (max-width: 999px) {
+	
+	
+.picsum-img-wrapper
+{
+	height:400px;
+	width:100%;
+ 	background-repeat: no-repeat; 
+    background-size: cover;
+    background-position: center; 
+} 
+.slider{
+	margin-top:-1%;
+}
+}
