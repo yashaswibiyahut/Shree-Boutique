@@ -1,0 +1,33 @@
+.slide{
+	width:100%; 
+	margin-top:-5%;  
+	float:left;
+	background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.adv
+{
+	position: relative;
+	background-color:black;
+	color:white;
+	height:5%;
+}
+.blink {
+            animation: blinker 1.5s linear infinite;
+            color: white;
+            font-family: sans-serif;
+           
+        }
+        @keyframes blinker {
+            50% {
+                opacity: 0;
+            }
+        }
+
+@media only screen and (max-width: 999px) {
+.slide
+{
+	margin-top:-16%; 
+}
+}
