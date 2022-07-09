@@ -1,0 +1,41 @@
+
+<mat-toolbar [class.header_change]="header_variable">
+<div class="container">
+	<div class="row">
+		<div class="col-md-2 col-sm-2">
+			<div class="logo">
+				<img src="/assets/logo2.png" alt="logo" class="logoweb">
+			</div>
+		</div>
+		<div class="col-md-10 col-sm-10 col-10">
+			<div class="menu-icon" [class.menu_icon_class]="menu_icon_variable"
+				(click)="openMenu()">
+				<span></span> <span></span> <span></span>
+			</div>
+			<div class="menu" [class.menuClass]="menuVriable">
+				<ul>
+					<li>SAREE</li>
+					<li>READYMADES</li>
+					<li>MATERIAL</li>
+					<li>ACCESSORIES</li>
+
+				</ul>
+				
+			
+			<div class="icon">
+			<ul>
+							
+					<li><mat-icon>search</mat-icon></li>
+					<li><mat-icon>favorite_border</mat-icon></li>
+					<li><mat-icon>shopping_cart</mat-icon></li>
+					<li><mat-icon>person_outline</mat-icon></li>
+			</ul>
+			</div>
+			</div>
+		</div>
+
+		
+	</div>
+</div>
+</mat-toolbar>
+
