@@ -1,0 +1,53 @@
+.footer
+{
+	background-color:black;
+	color:white;
+	height:40%;
+	display:flex;
+	padding-top:2%;
+}
+.col
+{
+	display:block;
+}
+.logo{
+position: relative;
+}
+.logoweb
+{
+	width:200px;
+	height: 80px;
+	margin-left:8%;
+	margin-top:1%;
+}
+.about
+{
+margin-left:5%;
+margin-top:1%;
+}
+
+a{
+	color:white;
+	text-decoration:none;
+  position: relative;
+}
+a:hover{
+	color:#ff8080;
+}
+a:after{
+  content: '';
+  position: absolute;
+  width: 0; height: 3px;
+  display: block;
+  margin-top: 5px;
+  right: 0;
+  background: #ff8080;
+  transition: width .2s ease;
+  -webkit-transition: width .2s ease;
+}
+ 
+a:hover:after{
+  width: 100%;
+  left: 0;
+  background: #ff8080;
+}

@@ -12,10 +12,10 @@ h1{
     font-weight: 700;
     line-height: 20px;
 }
-h5
+p
 {
 	font-size:15px;
-	font-weight: bold;
+
 	padding-top:10px;
 }
 .img-coll-sec
@@ -30,4 +30,12 @@ h5
 {
 	
 	padding: 40px;
+}
+a{
+	color:Black;
+	text-decoration:none;
+  position: relative;
+}
+a:hover{
+	color:#ff8080;
 }

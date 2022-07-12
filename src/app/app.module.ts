@@ -9,13 +9,15 @@ import { HeaderComponent } from './header/header.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { CategoriesComponent } from './categories/categories.component';
 import { CarouselModule } from 'ngx-owl-carousel-o';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     HeaderComponent,
-    CategoriesComponent
+    CategoriesComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
