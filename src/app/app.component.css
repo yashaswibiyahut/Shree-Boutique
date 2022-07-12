@@ -42,7 +42,7 @@
     border-radius: 50%;
     border: 2px solid #fff;        
 }
-.header_change{
+.arrow_change{
 	position: fixed;
 	background-color:black;
 	opacity:1;
@@ -60,6 +60,14 @@
 	bottom:0px;
 	right:0px;
 
+	
+}
+.copyright{
+	background-color:#600000;
+	height:5%;
+	color:rgba(255,255,255,.5);
+	font-size:15px;
+	text-align:center;
 	
 }
 @media only screen and (max-width: 999px) {

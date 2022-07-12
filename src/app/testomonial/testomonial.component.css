@@ -1,0 +1,60 @@
+.test
+{
+
+	background-color:#b5b5b5;
+	text-align:center;
+	
+}
+h2{
+	color:white;
+}
+
+.image
+{
+	position:relative;
+	height:100px;
+	width:100px;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	border-radius:50%;
+}
+.txt
+{
+	color:#6c757d;
+	text-align:center;
+	font-weight:bold;
+	font-family: cursive;
+}
+.name
+{
+	text-align:center;
+	font-weight:bold;
+	font-size:18px;
+	font-family: cursive;
+}
+.des
+{
+	font-size:12px;
+	margin-top:-15px;
+}
+.picsum-img-wrapper
+{
+	background-color:white;
+	position:relative;
+	width:70%;
+	height:10%;
+	margin:20px auto;
+	text-align:center;
+}
+.quotes
+{
+	text-align:right;
+	margin-right:10%;
+	
+}
+.leftquotes{
+	text-align:left;
+	margin-left:10%;
+	
+}
